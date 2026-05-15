@@ -1,0 +1,390 @@
+[
+  {
+    "i": 1,
+    "name": "中山大学",
+    "url": "https://www.sysu.edu.cn/images/ztpic20250523-sysu.jpg",
+    "ok": true,
+    "file": "./official-images/01-中山大学.jpg",
+    "type": "image/jpeg",
+    "size": 50713
+  },
+  {
+    "i": 2,
+    "name": "华南理工大学",
+    "url": "https://yz.scut.edu.cn/_upload/article/images/de/ce/971b26dd46f2846b9bedd3c550c8/c4c0574f-16ec-4835-a199-d5b0499dd1f3.jpg",
+    "ok": true,
+    "file": "./official-images/02-华南理工大学.jpg",
+    "type": "image/jpeg",
+    "size": 636771
+  },
+  {
+    "i": 3,
+    "name": "暨南大学",
+    "url": "https://yz.jnu.edu.cn/_upload/article/images/49/14/5f2797a74f31b03f56a21a24df48/0b4f7fad-7042-43fd-ad75-9bc7a535b723.jpg",
+    "ok": true,
+    "file": "./official-images/03-暨南大学.jpg",
+    "type": "image/jpeg",
+    "size": 565134
+  },
+  {
+    "i": 4,
+    "name": "华南师范大学",
+    "url": "http://statics.scnu.edu.cn/pics/yz/2015/1007/20151007064502611.jpg",
+    "ok": true,
+    "file": "./official-images/04-华南师范大学.jpg",
+    "type": "image/jpeg",
+    "size": 144373
+  },
+  {
+    "i": 5,
+    "name": "华南农业大学",
+    "url": "https://yzb.scau.edu.cn/_upload/article/images/b8/15/484afd6040b19b4b1614ecb4806d/cc9c1f6e-d982-41ac-aa4f-4f34800ec3b2.jpg",
+    "ok": true,
+    "file": "./official-images/05-华南农业大学.jpg",
+    "type": "image/jpeg",
+    "size": 13807
+  },
+  {
+    "i": 6,
+    "name": "广州医科大学",
+    "url": "https://www.gzhmu.edu.cn/banner/20260430.jpg",
+    "ok": true,
+    "file": "./official-images/06-广州医科大学.jpg",
+    "type": "image/jpeg",
+    "size": 1781346
+  },
+  {
+    "i": 7,
+    "name": "广州中医药大学",
+    "url": "https://www.gzucm.edu.cn/images/bann1.jpg",
+    "ok": true,
+    "file": "./official-images/07-广州中医药大学.jpg",
+    "type": "image/jpeg",
+    "size": 1675082
+  },
+  {
+    "i": 8,
+    "name": "南方医科大学",
+    "url": "https://portal.smu.edu.cn/yzw/images/xiongfeng.png",
+    "ok": true,
+    "file": "./official-images/08-南方医科大学.png",
+    "type": "image/png",
+    "size": 1077492
+  },
+  {
+    "i": 9,
+    "name": "南方科技大学",
+    "url": "https://yzbm.sustech.edu.cn/login/images/login_banner.png",
+    "ok": true,
+    "file": "./official-images/09-南方科技大学.png",
+    "type": "image/png;charset=UTF-8",
+    "size": 2951122
+  },
+  {
+    "i": 10,
+    "name": "深圳大学",
+    "url": "https://yz.szu.edu.cn/images/img1.png",
+    "ok": true,
+    "file": "./official-images/10-深圳大学.png",
+    "type": "image/png",
+    "size": 59680
+  },
+  {
+    "i": 11,
+    "name": "广东工业大学",
+    "url": "https://yzw.gdut.edu.cn/images/banner01.png",
+    "ok": true,
+    "file": "./official-images/11-广东工业大学.png",
+    "type": "image/png",
+    "size": 932167
+  },
+  {
+    "i": 12,
+    "name": "广州大学",
+    "url": "https://yjsy.gzhu.edu.cn/images/banner.jpg",
+    "ok": true,
+    "file": "./official-images/12-广州大学.jpg",
+    "type": "image/jpeg",
+    "size": 313975
+  },
+  {
+    "i": 13,
+    "name": "广东外语外贸大学",
+    "url": "https://yz.gdufs.edu.cn/images/1.jpg",
+    "ok": true,
+    "file": "./official-images/13-广东外语外贸大学.jpg",
+    "type": "image/jpeg",
+    "size": 94859
+  },
+  {
+    "i": 14,
+    "name": "广东财经大学",
+    "url": "https://yzb.gdufe.edu.cn/_upload/article/images/b0/1e/459c52aa42a5a4377dad70355bac/8a3f4fcc-2072-4b71-a404-3a13456c2390.png",
+    "ok": true,
+    "file": "./official-images/14-广东财经大学.png",
+    "type": "image/png",
+    "size": 292074
+  },
+  {
+    "i": 15,
+    "name": "汕头大学",
+    "url": "https://www.gs.stu.edu.cn/static/img/banner/12.jpg",
+    "ok": true,
+    "file": "./official-images/15-汕头大学.jpg",
+    "type": "image/jpeg",
+    "size": 310810
+  },
+  {
+    "i": 16,
+    "name": "东莞理工学院",
+    "url": "https://yzw.dgut.edu.cn/images2025/banner01.jpg",
+    "ok": true,
+    "file": "./official-images/16-东莞理工学院.jpg",
+    "type": "image/jpeg",
+    "size": 449582
+  },
+  {
+    "i": 17,
+    "name": "广东技术师范大学",
+    "url": "https://yjszs.gpnu.edu.cn/images/tushuguan2.jpg",
+    "ok": true,
+    "file": "./official-images/17-广东技术师范大学.jpg",
+    "type": "image/jpeg",
+    "size": 895709
+  },
+  {
+    "i": 18,
+    "name": "广东海洋大学",
+    "url": "https://www.gdou.edu.cn/banner/xuexijiaoyuzhuyedatu.jpg",
+    "ok": true,
+    "file": "./official-images/18-广东海洋大学.jpg",
+    "type": "image/jpeg",
+    "size": 318035
+  },
+  {
+    "i": 19,
+    "name": "广东药科大学",
+    "url": "https://www.gdpu.edu.cn/images/banner.jpg",
+    "ok": true,
+    "file": "./official-images/19-广东药科大学.jpg",
+    "type": "image/jpeg",
+    "size": 219887
+  },
+  {
+    "i": 20,
+    "name": "广东医科大学",
+    "url": "https://yjsxy.gdmu.edu.cn/images/banner.png",
+    "ok": true,
+    "file": "./official-images/20-广东医科大学.png",
+    "type": "image/png",
+    "size": 316629
+  },
+  {
+    "i": 21,
+    "name": "佛山大学",
+    "url": "https://www.fosu.edu.cn/favicon.ico",
+    "ok": true,
+    "file": "./official-images/21-佛山大学.ico",
+    "type": "image/x-icon",
+    "size": 1521
+  },
+  {
+    "i": 22,
+    "name": "五邑大学",
+    "url": "https://www.wyu.edu.cn/2023ym/images/e-bg1.jpg",
+    "ok": true,
+    "file": "./official-images/22-五邑大学.jpg",
+    "type": "image/jpeg",
+    "size": 531993
+  },
+  {
+    "i": 23,
+    "name": "北京大学深圳研究生院",
+    "url": "https://www.pkusz.edu.cn/images22/part5-bg.jpg",
+    "ok": true,
+    "file": "./official-images/23-北京大学深圳研究生院.jpg",
+    "type": "image/jpeg",
+    "size": 229692
+  },
+  {
+    "i": 24,
+    "name": "清华大学深圳国际研究生院",
+    "url": "https://www.sigs.tsinghua.edu.cn/_upload/article/images/2e/6c/cad69f324a9f9db75a49211bb3c5/52467097-ae8f-40e8-9463-62d43ed98100.jpg",
+    "ok": true,
+    "file": "./official-images/24-清华大学深圳国际研究生院.jpg",
+    "type": "image/jpeg",
+    "size": 2043144
+  },
+  {
+    "i": 25,
+    "name": "哈尔滨工业大学（深圳）",
+    "url": "https://www.hitsz.edu.cn/_upload/article/images/d5/31/c87f68f24801bac1fa8062cc82c0/911844ad-45e7-4f1b-ad02-d4fd2472b07c.jpg",
+    "ok": true,
+    "file": "./official-images/25-哈尔滨工业大学-深圳.jpg",
+    "type": "image/jpeg",
+    "size": 1111706
+  },
+  {
+    "i": 26,
+    "name": "香港中文大学（深圳）",
+    "url": "https://www.cuhk.edu.cn/sites/webmaster.prod1.dpsite04.cuhk.edu.cn/files/styles/crop_freeform/public/2023-07/88899.jpg?itok=fNFhiQRO",
+    "ok": true,
+    "file": "./official-images/26-香港中文大学-深圳.jpg",
+    "type": "image/jpeg",
+    "size": 61271
+  },
+  {
+    "i": 27,
+    "name": "深圳北理莫斯科大学",
+    "url": "https://www.smbu.edu.cn/images/cont3_pic.jpg",
+    "ok": true,
+    "file": "./official-images/27-深圳北理莫斯科大学.jpg",
+    "type": "image/jpeg",
+    "size": 366703
+  },
+  {
+    "i": 28,
+    "name": "深圳技术大学",
+    "url": "https://www.sztu.edu.cn/images/sy-vrpic.jpg",
+    "ok": true,
+    "file": "./official-images/28-深圳技术大学.jpg",
+    "type": "image/jpeg",
+    "size": 407103
+  },
+  {
+    "i": 29,
+    "name": "北京师范大学珠海校区",
+    "url": "https://www.bnu.edu.cn/images/2026-05/490f5a79bce24209a53267cf46959906.jpg",
+    "ok": true,
+    "file": "./official-images/29-北京师范大学珠海校区.jpg",
+    "type": "image/jpeg",
+    "size": 213170
+  },
+  {
+    "i": 30,
+    "name": "北京师范大学-香港浸会大学联合国际学院",
+    "url": "https://www.bnbu.edu.cn/en_img/about_pic-2024.jpg",
+    "ok": true,
+    "file": "./official-images/30-北京师范大学-香港浸会大学联合国际学院.jpg",
+    "type": "image/jpeg",
+    "size": 579087
+  },
+  {
+    "i": 31,
+    "name": "广东以色列理工学院",
+    "url": "https://www.gtiit.edu.cn/upload/banner/6dc14709-754f-426c-9c85-42bccee612b9.jpg",
+    "ok": true,
+    "file": "./official-images/31-广东以色列理工学院.jpg",
+    "type": "image/jpeg",
+    "size": 570040
+  },
+  {
+    "i": 32,
+    "name": "广州体育学院",
+    "url": "https://grad.gzsport.edu.cn/template/default/index/images/picTz01.jpg",
+    "ok": true,
+    "file": "./official-images/32-广州体育学院.jpg",
+    "type": "image/jpeg",
+    "size": 33818
+  },
+  {
+    "i": 33,
+    "name": "广州美术学院",
+    "url": "https://yjs.gzarts.edu.cn/top_bg.jpg",
+    "ok": true,
+    "file": "./official-images/33-广州美术学院.jpg",
+    "type": "image/jpeg",
+    "size": 49466
+  },
+  {
+    "i": 34,
+    "name": "星海音乐学院",
+    "url": "https://yjsb.xhcom.edu.cn/favicon.ico",
+    "ok": false,
+    "error": "fetch failed"
+  },
+  {
+    "i": 35,
+    "name": "仲恺农业工程学院",
+    "url": "https://news.zhku.edu.cn/system/_content/download.jsp?owner=1315402037&urltype=news.DownloadAttachUrl&wbfileid=05FBCD67E0AC76491E1CB825F81AEF4D",
+    "ok": false,
+    "error": "bad 502 text/html"
+  },
+  {
+    "i": 36,
+    "name": "广东金融学院",
+    "url": "https://yjs.gduf.edu.cn/images/2024biyezhao.jpg",
+    "ok": true,
+    "file": "./official-images/36-广东金融学院.jpg",
+    "type": "image/jpeg",
+    "size": 1006498
+  },
+  {
+    "i": 37,
+    "name": "岭南师范学院",
+    "url": "https://d.lingnan.edu.cn/yjsc/images/P2-1.jpg",
+    "ok": true,
+    "file": "./official-images/37-岭南师范学院.jpg",
+    "type": "image/jpeg",
+    "size": 276635
+  },
+  {
+    "i": 38,
+    "name": "广东石油化工学院",
+    "url": "https://www.gdupt.edu.cn/images/ban1.jpg",
+    "ok": true,
+    "file": "./official-images/38-广东石油化工学院.jpg",
+    "type": "image/jpeg",
+    "size": 27163
+  },
+  {
+    "i": 39,
+    "name": "肇庆学院",
+    "url": "https://www.zqu.edu.cn/images/25/11/10/11sp5c4a1x/Topicsimg1.jpg",
+    "ok": true,
+    "file": "./official-images/39-肇庆学院.jpg",
+    "type": "image/jpeg",
+    "size": 37873
+  },
+  {
+    "i": 40,
+    "name": "惠州学院",
+    "url": "https://www.hzu.edu.cn/_upload/article/images/42/35/0b15b61b4be7b2933129c01e482f/fb23c4c1-7f18-47c3-bfd1-f53191f2f97c.jpg",
+    "ok": false,
+    "error": "fetch failed"
+  },
+  {
+    "i": 41,
+    "name": "广州航海学院",
+    "url": "https://www.gzmtu.edu.cn/__local/B/DC/F6/A21E86C527179E3D90CC708A53A_D1AA1B6D_5A9FB.jpg",
+    "ok": true,
+    "file": "./official-images/41-广州航海学院.jpg",
+    "type": "image/jpeg",
+    "size": 371195
+  },
+  {
+    "i": 42,
+    "name": "广东第二师范学院",
+    "url": "https://www.gdei.edu.cn/_upload/article/images/e2/91/873ee42945548103f7119d69c00c/3a9d633c-7bfd-4b07-9d20-8f4cf25e49f3.jpg",
+    "ok": true,
+    "file": "./official-images/42-广东第二师范学院.jpg",
+    "type": "image/jpeg",
+    "size": 1802822
+  },
+  {
+    "i": 43,
+    "name": "广东省社会科学院",
+    "url": "https://www.gdass.gov.cn/favicon.ico",
+    "ok": false,
+    "error": "fetch failed"
+  },
+  {
+    "i": 44,
+    "name": "中国科学院深圳先进技术研究院",
+    "url": "https://www.siat.ac.cn/zjsiat/images/P020241220633548187493.png",
+    "ok": true,
+    "file": "./official-images/44-中国科学院深圳先进技术研究院.png",
+    "type": "image/png",
+    "size": 17230
+  }
+]

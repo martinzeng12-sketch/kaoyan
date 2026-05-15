@@ -1,0 +1,9 @@
+{
+  "name": "割了吧杨b林森专属私董考研网",
+  "short_name": "私董考研网",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#eef3f7",
+  "theme_color": "#0b6b63",
+  "description": "广东考研择校工作台：院校池、地图、官网入口、研招入口、星级评价、备考时间线和统考估算倒计时。"
+}

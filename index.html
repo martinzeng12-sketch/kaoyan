@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>割了吧杨b林森专属私董考研网</title>
+    <meta name="description" content="广东考研择校工作台：院校池、地图、官网入口、研招入口、星级评价、备考时间线和初试倒计时。" />
+    <meta name="theme-color" content="#0b6b63" />
+    <meta property="og:title" content="割了吧杨b林森专属私董考研网" />
+    <meta property="og:description" content="广东考研择校工作台：地图看学校、表格比院校、官网研招入口一键跳转。" />
+    <meta property="og:type" content="website" />
+    <link rel="manifest" href="./site.webmanifest" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="导航">
+        <div class="brand">
+          <span class="brand-mark">研</span>
+          <div>
+            <strong>割了吧杨b林森</strong>
+            <span>专属私董考研网</span>
+          </div>
+        </div>
+        <nav class="nav-list">
+          <a href="#dashboard" class="active"><i data-lucide="layout-dashboard"></i><span>总览</span></a>
+          <a href="#schools"><i data-lucide="building-2"></i><span>院校</span></a>
+          <a href="#sources"><i data-lucide="shield-check"></i><span>来源</span></a>
+          <a href="#timeline"><i data-lucide="calendar-days"></i><span>时间线</span></a>
+        </nav>
+      </aside>
+
+      <main>
+        <section class="hero" id="dashboard">
+          <div class="hero-copy">
+            <p class="eyebrow">面向 2026 考研准备</p>
+            <h1>割了吧杨b林森专属私董考研网</h1>
+            <p>学校、专业、招生简章、复试线、导师线索、备考动作，都集中在这里跟踪。</p>
+          </div>
+          <div class="hero-media" role="img" aria-label="广州城市天际线"></div>
+        </section>
+
+        <section class="metrics" aria-label="概览指标">
+          <article>
+            <span>目标院校</span>
+            <strong id="schoolCount">0</strong>
+          </article>
+          <article>
+            <span>高优先级</span>
+            <strong id="priorityCount">0</strong>
+          </article>
+          <article>
+            <span>待核验信息</span>
+            <strong id="verifyCount">0</strong>
+          </article>
+          <article>
+            <span>收藏来源</span>
+            <strong id="sourceCount">0</strong>
+          </article>
+          <article>
+            <span>统考估算倒计时</span>
+            <strong id="countdownDays">0天</strong>
+          </article>
+        </section>
+
+        <section class="quick-access" aria-label="快捷入口">
+          <a href="#schools" class="quick-card">
+            <i data-lucide="table-2"></i>
+            <span>院校库还在这里</span>
+            <strong>查看 44 所候选院校</strong>
+          </a>
+          <a href="#mapExplorer" class="quick-card">
+            <i data-lucide="map"></i>
+            <span>地图择校</span>
+            <strong>按城市和学校点位浏览</strong>
+          </a>
+        </section>
+
+        <section class="panel timeline-wide" id="timelineHorizontal">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">横向规划</p>
+              <h2>备考时间线</h2>
+            </div>
+            <span class="map-hint" id="examTargetText">按下一次初试窗口估算</span>
+          </div>
+          <div class="timeline-rail" id="timelineRail"></div>
+        </section>
+
+        <section class="map-workbench" id="mapExplorer">
+          <div class="panel map-panel">
+            <div class="panel-head">
+              <div>
+                <p class="eyebrow">地图择校</p>
+                <h2>广东院校分布地图</h2>
+              </div>
+              <span class="map-hint">点击标记查看图片、简介和星级评价</span>
+            </div>
+            <div id="campusMap" class="campus-map" aria-label="广东研究生院校地图"></div>
+          </div>
+          <aside class="map-school-card" id="mapSchoolCard" aria-label="地图学校详情"></aside>
+        </section>
+
+        <section class="workspace" id="schools">
+          <div class="panel">
+            <div class="panel-head">
+              <div>
+                <p class="eyebrow">院校池</p>
+                <h2>广东研究生候选院校池</h2>
+              </div>
+              <div class="actions">
+                <button id="exportCsv" class="icon-btn" title="导出 CSV" aria-label="导出 CSV">
+                  <i data-lucide="download"></i>
+                </button>
+                <button id="resetData" class="icon-btn danger" title="恢复院校池" aria-label="恢复院校池">
+                  <i data-lucide="rotate-ccw"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="filters" aria-label="筛选">
+              <label class="search-box">
+                <i data-lucide="search"></i>
+                <input id="searchInput" type="search" placeholder="搜索学校、城市、方向" />
+              </label>
+              <div class="segmented" role="group" aria-label="优先级">
+                <button class="segment active" data-priority="全部">全部</button>
+                <button class="segment" data-priority="冲刺">冲刺</button>
+                <button class="segment" data-priority="稳妥">稳妥</button>
+                <button class="segment" data-priority="保底">保底</button>
+              </div>
+            </div>
+
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>学校</th>
+                    <th>城市</th>
+                    <th>方向</th>
+                    <th>优先级</th>
+                    <th>状态</th>
+                    <th>初试倒计时</th>
+                    <th>来源</th>
+                  </tr>
+                </thead>
+                <tbody id="schoolRows"></tbody>
+              </table>
+            </div>
+          </div>
+
+          <aside class="detail-panel" aria-label="院校详情">
+            <div class="detail-card" id="detailCard"></div>
+            <form id="schoolForm" class="form-card">
+              <div class="form-head">
+                <i data-lucide="plus-circle"></i>
+                <h3>新增目标</h3>
+              </div>
+              <label>学校<input name="name" required placeholder="例如：广东外语外贸大学" /></label>
+              <label>城市<input name="city" required placeholder="广州" /></label>
+              <label>方向<input name="major" required placeholder="新闻传播 / 计算机 / 教育学" /></label>
+              <div class="form-grid">
+                <label>优先级
+                  <select name="priority">
+                    <option>稳妥</option>
+                    <option>冲刺</option>
+                    <option>保底</option>
+                  </select>
+                </label>
+                <label>状态
+                  <select name="status">
+                    <option>待核验</option>
+                    <option>已收藏</option>
+                    <option>重点跟进</option>
+                  </select>
+                </label>
+              </div>
+              <label>官网链接<input name="source" type="url" placeholder="https://..." /></label>
+              <label>备注<textarea name="note" rows="3" placeholder="复试线、参考书、导师、校区、住宿等"></textarea></label>
+              <button type="submit" class="primary-btn"><i data-lucide="save"></i><span>保存</span></button>
+            </form>
+          </aside>
+        </section>
+
+        <section class="two-col" id="sources">
+          <div class="panel compact">
+            <div class="panel-head">
+              <div>
+                <p class="eyebrow">核验顺序</p>
+                <h2>信息来源</h2>
+              </div>
+            </div>
+            <div class="source-list">
+              <a href="https://yz.chsi.com.cn/" target="_blank" rel="noreferrer"><i data-lucide="external-link"></i><span>中国研究生招生信息网</span></a>
+              <a href="https://eea.gd.gov.cn/" target="_blank" rel="noreferrer"><i data-lucide="external-link"></i><span>广东省教育考试院</span></a>
+              <a href="https://graduate.sysu.edu.cn/zsw/index.php" target="_blank" rel="noreferrer"><i data-lucide="external-link"></i><span>中山大学研究生招生网</span></a>
+              <a href="https://yz.scut.edu.cn/" target="_blank" rel="noreferrer"><i data-lucide="external-link"></i><span>华南理工大学研究生招生网</span></a>
+              <a href="https://yz.scnu.edu.cn/" target="_blank" rel="noreferrer"><i data-lucide="external-link"></i><span>华南师范大学研究生招生信息网</span></a>
+              <a href="https://yz.szu.edu.cn/" target="_blank" rel="noreferrer"><i data-lucide="external-link"></i><span>深圳大学研究生招生网</span></a>
+              <a href="https://yzw.gdut.edu.cn/" target="_blank" rel="noreferrer"><i data-lucide="external-link"></i><span>广东工业大学研究生招生网</span></a>
+              <a href="https://yz.gdufs.edu.cn/" target="_blank" rel="noreferrer"><i data-lucide="external-link"></i><span>广东外语外贸大学研究生招生网</span></a>
+            </div>
+          </div>
+
+          <div class="panel compact" id="timeline">
+            <div class="panel-head">
+              <div>
+                <p class="eyebrow">行动表</p>
+                <h2>备考时间线</h2>
+              </div>
+            </div>
+            <div class="timeline-list" id="timelineList"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
